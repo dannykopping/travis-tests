@@ -1,1 +1,7 @@
-script: ./.travis.sh 
+before_script:
+  - echo "Changing mode"
+  - ls -la
+  - pwd
+  - sudo chmod a+x ./.travis.sh
+
+script: ./.travis.sh
