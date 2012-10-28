@@ -3,5 +3,6 @@ before_script:
   - ls -la
   - pwd
   - sudo chmod a+x ./.travis.sh
+  - sudo apt-get install mailutils
 
 script: ./.travis.sh
